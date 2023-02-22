@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Introduction</title>
+    <style>
+        body {
+            font-family: monospace;
+            font-size: 1.5em;
+            width: 33%;
+            background-color: green;
+            color: white;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>What can JavaScript do?</h2>
+    <br>
+
+    <p id="demo1">JavaScript can change HTML content</p>
+    <button type="button" onclick="document.getElementById('demo1').innerHTML = 'Hi, I\'m changed!';">Click to change</button>
+    <hr>
+
+    <p id="demo2">JavaScript can change the style of a HTML element.</p>
+    <button type="button" onclick="document.getElementById('demo2').style.fontSize = '22px';">Change font size!</button>
+    <button type="button" onclick="document.getElementById('demo2').style.backgroundColor = 'black';">Change bg color!</button>
+    <hr>
+
+    <p id="demo3">JavaScript can hide/unhide HTML element.</p>
+    <button type="button" onclick="document.getElementById('demo3').style.display = 'none';">Hide</button>
+    <button type="button" onclick="document.getElementById('demo3').style.display = 'block';">Unhide</button>
+    <hr>
+
+    <p>JavaScript can do so many more things!!</p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
